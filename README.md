@@ -11,3 +11,5 @@ The dataset contains premise-hypothesis pairs in fifteen different languages, in
 The dataset file contains the ID, premise, hypothesis, and label (0 for entailment, 1 for neutral, 2 for contradiction), as well as the language of the text and its two-letter abbreviation. Our model's job is to predict the label based on the other infos.
 
 The BERT used here specifically is XLM-R developed by Facebook AI designed to perform well on a wide range of natural language processing (NLP) tasks across multiple languages.
+
+Siamese Architecture is followed for designing the model network and is inspired by the research paper 'Bert-based Siamese Network for Semantic Similarity'.
